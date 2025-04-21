@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picolo Exchange</title>
+    <link rel="stylesheet" href="./commonStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa7454d09f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div id="logo">
+            <a href="./index.html">
+            <img src="./img/logo-white.png" alt="">
+            </a>
+        </div>
+        <ul class="nav" id="nav">
+            <ul class="navLogo">
+                <a href="./index.html">
+                     <img src="./img/logo-white.png" alt="">
+               </a>
+            </ul>
+
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+            <li class="nav-link"><a href="./aboutus.html">About Us</a></li>
+            <li class="nav-link"><a href="./contact.html">Contact</a></li>
+            <li class="sociallinkContainer">
+                <img class="sociallink" src="./img/fabook-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/twitter-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="">
+                <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="">
+            </li>
+        </ul>
+        <div id="barContainer">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero page -->
+    <section class="hero gridSection">
+        <div class="sectionDesc">
+            <h1 class="headline">
+                Your Trusted Way To Trade <span class="cryptoText">CRYPTO</span>.
+            </h1>
+            <p class="sub-headline">
+                Buy and sell crypto, gift cards, or
+                any digital assets, we've got you covered.
+                Enjoy seamless transactions, honest and sharp rates,
+                and reliable service every step of the way.
+            </p>
+            <div class="btnContainer">
+                <a href="https://wa.link/hvmgny"><button class="btn btn1">Contact Now</button></a>
+                <a href="https://wa.link/o3f20w"><button class="btn btn2">See Our Rates <i class="fa-solid fa-play"></i></button></a>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic" id="sectionPic">
+            <img src="./img/hero-image.png" alt="">
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section>
+        <div class="carouselContainer">
+            <div class="eachCarousel eachCarouselBorder">
+                <img src="./img/bitcoin-icon.png" alt="">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">Bitcoin</h1>
+                    <p class="carouselPara">Bitcoin is an innovative payment network</p>
+                    <div class="carouselPrice">
+                        <h3><span id="btc-price">Loading...</span></h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount"><div id="btc-change"></div></h3>
+                    </div>
+                    <button class="btn carouselBtn">Buy & Trade</button>
+                </article>
+            </div>
+    
+            <div class="eachCarousel">
+                <img src="./img/ethereum-icon.png" alt="">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">Ethereum</h1>
+                    <p class="carouselPara">Ethereum is open-source blockchain currency</p>
+                    <div class="carouselPrice">
+                        <h3><span id="eth-price">Loading...</span></h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount"><span id="eth-change">1%</span></h3>
+                    </div>
+                    <button class="btn carouselBtn">Buy & Trade</button>
+                </article>
+            </div>
+    
+            <div class="eachCarousel">
+                <img src="./img/tether-icon.png" alt="">
+                <article class="carouselDesc">
+                    <h1 class="carouselTitle">Tether</h1>
+                    <p class="carouselPara">Tether is a stable coin cryptocurrency</p>
+                    <div class="carouselPrice">
+                        <h3><span id="usdt-price">Loading...</span></h3>
+                        <span class="rect"></span>
+                        <h3 class="carouselDiscount"><span id="usdt-change"></span></h3>
+                    </div>
+                    <button class="btn carouselBtn">Buy & Trade</button>
+                </article>
+            </div>
+    
+            
+    
+            
+        </div>
+    </section>
+
+    <!-- Processes -->
+    <section class="gridSection">
+        <div class="sectionDesc processessDesc">
+            <h1 class="sectionHeader">Chain Process</h1>
+            <p class="sectionPara">We do not charge any hidden fees, and you don't need to create an
+              account. Your privacy and your 
+              coins stay fully in your control-always.
+            </p>
+            <div class="eachProcesses">
+                <img src="./img/handshake-icon-white-line.svg" alt="handshake">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Trading</h1>
+                    <p>
+                        We facilitate secure  crypto trades with real-time rates. 
+                        Whether you're looking to buy low or sell high, our trading process is
+                        simple, fast and transparent.
+                    </p>
+                </div>
+            </div>
+            <div class="eachProcesses">
+                <img src="./img/cart-icon-white-line.svg" alt="handshake">
+                <div class="eachprocessesPara">
+                    <h1 class="processTitle">Buying</h1>
+                    <p>
+                        Get top value for your coins and cards, We buy BTC, ETH, USDT,
+                        giftcards and $$ at competitive rates. Fast payment, verified
+                        transactions, and no stress.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sectionPic bouncepic processesPic" id="sectionPic">
+            <img src="./img/chain-process-img.png" alt="">
+        </div>
+    </section>
+
+    <!-- Markets -->
+    <section class="gridSection">
+        <div class="sectionDesc marketDesc">
+            <h1 class="sectionHeader">Markets at Your Finger</h1>
+            <p class="sectionPara">Access the best rates and deals for crypto and
+                digital assets-all in one place. With a trusted vendor by your
+                side, buying, selling, or trading has never been this secure.
+            </p>
+            <div class="eachMarket">
+                <img src="./img/buy-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Buy Instantly</h1>
+                    <p class="darkPara">
+                        Get fast, reliable deals on crypto, giftcards and more. 
+                        No delays, no confusing platforms–just straightforward 
+                        transactions with full transparency.
+                    </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/trading-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Trade with Confidence</h1>
+                    <p class="darkPara">
+                        Whether you’re flipping coins or holding long term, we 
+                        help you trade smoothly. Get real–time prices and trustworthy
+                        service every step of the way.
+                    </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/support-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Friendly Support Always Available</h1>
+                    <p class="darkPara">
+                        Don’t worry if you’re new to crypto and digital 
+                        currencies – We’ll walk you through everything. We’re with you every step of the way.
+                    </p>
+                </div>
+            </div>
+            <div class="eachMarket">
+                <img src="./img/online-icon-color.svg" alt="handshake">
+                <div>
+                    <h1 class="marketTitle">Always Online, Always Responsive</h1>
+                    <p class="darkPara">
+                        We’re available whenever you need us. Quick replies, real–time service, and secure transactions–day or night.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sectionPic marketspicSection" id="sectionPic">
+           <h1 class="marketspicHeader">CRYPTOCURRENCY</h1>
+            <div class="marketsPicContainer">
+                <div class="marketPic marketPic1">
+                    <img src="./img/persent-icon-white.svg" alt="">
+                    <article class="marketTitle">Best Rates</article>
+                </div>
+    
+                <div class="marketPic marketPic2">
+                    <img src="./img/bitcoin-icon-white.svg" alt="">
+                    <article class="marketTitle">Bit coin</article>
+                </div>
+    
+                <div class="marketPic marketPic3">
+                    <img src="./img/ethereum-white-icon.svg" alt="">
+                    <article class="marketTitle">ETHEREUM</article>
+                </div>
+    
+                <div class="marketPic marketPic4">
+                    <img src="./img/handshake-icon-white.svg" alt="">
+                    <article class="marketTitle">CONNECT</article>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section class="gridSection">
+        <div class="sectionDesc dashboardDesc">
+            <h1 class="sectionHeader">Fast and Reliable Digital Asset Transactions</h1>
+            <p class="sectionPara">
+                With Picolo Exchange, you can Buy and Sell your crypto, giftcards, and other digital
+                assets quickly and securely. Experience efficient service from a dedicated vendor.
+            </p>
+            <a href="https://wa.link/hvmgny"><button class="btn">Get a Quote</button></a>
+        </div>
+
+        <div class="sectionPic dashboardPic">
+            <img src="./img/dashboard-dark.jpg" alt="">
+        </div>
+
+    </section>
+
+    <div class="fundSection">
+        <div class="sectionDesc">
+            <h1 class="sectionHeader">Securely Transact with Confidence</h1>
+            <p class="sectionPara">
+                Your peace of mind is our priority. We ensure secure and transparent transactions for all
+                your digital asset dealings.
+            </p>
+            <div class="fundsContainer">
+                <div class="fund">
+                    <img src="./img/cryptocurrency-white-icon.svg" alt="cryptocurrency">
+                    <h1 class="fundType">Support All Assets</h1>
+                    <p class="darkPara">
+                        Accept and process payments from all types of currencies & cards
+                    </p>
+                </div>
+
+                <div class="fund">
+                    <img src="./img/blockchain-white-icon.svg" alt="cryptocurrency">
+                    <h1 class="fundType">Reliable Txns</h1>
+                    <p class="darkPara">
+                        Transact with confidence knowing your purchases are handled securely
+                    </p>
+                </div>
+
+                <div class="fund">
+                    <img src="./img/cryptocurrency-sell-white-icon.svg" alt="cryptocurrency">
+                    <h1 class="fundType">Trade with ease</h1>
+                    <p class="darkPara">
+                        A straightforward process for buying and selling your desired digital assets
+                    </p>
+                </div>
+
+                <div class="fund">
+                    <img src="./img/cryptocurrency-card-white-icon.svg" alt="cryptocurrency">
+                    <h1 class="fundType">Competitive Rates</h1>
+                    <p class="darkPara">
+                        Get great value when buying or selling your cryptocurrencies, cards & assets
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="gridSection">
+        <div class="sectionDesc newsletterDesc">
+            <h1 class="sectionHeader">Don't miss out!</h1>
+            <p class="sectionPara">
+                Join our community of winners and informed followers! Message us to save your contact for giveaway and news.
+            </p>
+            <form action="#" class="newsletter">
+                <input type="email" name="" id="newsletter" placeholder="enter your number">
+                <a href="https://wa.link/ohv89y"><button type="submit" class="btn primaryBtn">Subscribe</button></a>
+            </form>
+        </div>
+        <div class="sectionPic bouncepic newsletterPic">
+            <img src="./img/newsletter.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="joinSection">
+            <div class="joinDesc">
+                <h1 class="sectionHeader">Save our contact</h1>
+                <p class="sectionPara">
+                    Be the first to know about crypto news and updates, and stay tuned for perks and GA!!!
+                </p>
+            </div>
+            <a href="https://wa.link/ohv89y"><button class="btn primaryBtn">JOIN NOW</button></a>
+        </div>
+
+        <div class="footerlinksContainer">
+            <div class="footerAboutus">
+                <img src="./img/logo-white.png" alt="">
+                <p class="darkPara">Your trusted partner for buying and selling crypto, cards and more.
+                    Personalized service you can rely on.
+                </p>
+                <div class="footersociallinkContainer">
+                    <img class="sociallink" src="./img/fabook-icon-white.svg" alt="">
+                    <img class="sociallink" src="./img/twitter-icon-white.svg" alt="">
+                    <img class="sociallink" src="./img/inkedin-icon-white.svg" alt="">
+                    <img class="sociallink" src="./img/whatsapp-icon-white.svg" alt="">
+                </div>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Explore</h1>
+                <a href="aboutus.html" class="eachLink">About us</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Rates</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Enquires</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Contact</a>
+            </div>
+
+            <div class="footerlink">
+                <h1 class="linkTitle">Services</h1>
+                <a href="https://wa.link/o3f20w" class="eachLink">Crypto</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Giftcards</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Azas</a>
+                <a href="https://wa.link/o3f20w" class="eachLink">Other Assets</a>
+            </div>
+
+            
+        </div>
+
+        <div class="footerCopyright">
+             <p>&copy; 2025 design and developed by <a href="#" class="developedBy">Nexes Co.</a></p>
+        </div>
+    </footer>
+    
+
+    <script src="./script.js"></script>
+    <script>
+        async function fetchBTCPrice() {
+          const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
+          const data = await response.json();
+          document.getElementById('btc-price').textContent = data.bitcoin.usd;
+        }
+    
+        fetchBTCPrice();
+        setInterval(fetchBTCPrice, 10000); // Refresh every 10 seconds
+
+
+        async function fetchETHPrice() {
+      try {
+        const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
+        const data = await response.json();
+        const ethPrice = data.ethereum.usd;
+        document.getElementById('eth-price').textContent = `$${ethPrice.toLocaleString()}`;
+      } catch (error) {
+        document.getElementById('eth-price').textContent = 'Error fetching price';
+        console.error('Failed to fetch ETH price:', error);
+      }
+    }
+
+    // Initial fetch
+    fetchETHPrice();
+
+    // Refresh price every 60 seconds
+    setInterval(fetchETHPrice, 60000);
+
+    async function fetchETHData() {
+      try {
+        const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ethereum');
+        const data = await res.json();
+        const eth = data[0];
+
+        const price = eth.current_price;
+        const change = eth.price_change_percentage_24h;
+
+        document.getElementById('eth-price').textContent = `$${price.toLocaleString()}`;
+
+        const changeEl = document.getElementById('eth-change');
+        changeEl.textContent = `${change.toFixed(2)}%`;
+        changeEl.style.color = change >= 0 ? 'green' : 'red';
+
+      } catch (err) {
+        document.getElementById('eth-price').textContent = 'Error fetching price';
+        document.getElementById('eth-change').textContent = '';
+        console.error('Fetch error:', err);
+      }
+    }
+
+    fetchETHData();
+    setInterval(fetchETHData, 60000);
+
+    async function fetchBTCData() {
+      try {
+        const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin');
+        const data = await res.json();
+        const btc = data[0];
+
+        const price = btc.current_price;
+        const change = btc.price_change_percentage_24h;
+
+        document.getElementById('btc-price').textContent = `$${price.toLocaleString()}`;
+
+        const changeEl = document.getElementById('btc-change');
+        changeEl.textContent = `${change.toFixed(2)}%`;
+        changeEl.style.color = change >= 0 ? 'green' : 'red';
+
+      } catch (err) {
+        document.getElementById('btc-price').textContent = 'Error fetching price';
+        document.getElementById('btc-change').textContent = '';
+        console.error('Fetch error:', err);
+      }
+    }
+
+    fetchBTCData();
+    setInterval(fetchBTCData, 60000); // Refresh every 60s
+
+    // USDT to naira
+    async function fetchUSDTData() {
+      try {
+        const res = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=ngn&ids=tether');
+        const data = await res.json();
+        const usdt = data[0];
+
+        const price = usdt.current_price;
+        const change = usdt.price_change_percentage_24h;
+
+        document.getElementById('usdt-price').textContent = `₦${price.toLocaleString()}`;
+
+        const changeEl = document.getElementById('usdt-change');
+        changeEl.textContent = `${change.toFixed(2)}%`;
+        changeEl.style.color = change >= 0 ? 'green' : 'red';
+
+      } catch (err) {
+        document.getElementById('usdt-price').textContent = 'Error fetching price';
+        document.getElementById('usdt-change').textContent = '';
+        console.error('Fetch error:', err);
+      }
+    }
+
+    fetchUSDTData();
+    setInterval(fetchUSDTData, 60000); // Refresh every 60s
+      </script>
+</body>
+</html>
